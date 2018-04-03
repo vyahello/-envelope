@@ -16,8 +16,8 @@ class Envelope(ABC):
         pass
 
 
-class BirthdayEnvelope(Envelope):
-    """Concrete envelope object"""
+class EnvelopeOne(Envelope):
+    """Concrete envelope object."""
 
     def __init__(self, height: int, width: int) -> None:
         self._height = SafeProperty(EnvelopeHeight(height))
@@ -30,8 +30,8 @@ class BirthdayEnvelope(Envelope):
         return "{} has size {}x{}".format(self.__class__.__name__, self._height.value(), self._width.value())
 
 
-class ChristmasEnvelope(Envelope):
-    """Concrete envelope object"""
+class EnvelopeTwo(Envelope):
+    """Concrete envelope object."""
 
     def __init__(self, height: int, width: int) -> None:
         self._height = SafeProperty(EnvelopeHeight(height))

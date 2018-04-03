@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod, ABCMeta
 
 
 class EnvProperty(ABC):
-    """Represents envelope property interface"""
+    """Represent envelope property interface"""
 
     __metaclass__ = ABCMeta
 
@@ -12,7 +12,7 @@ class EnvProperty(ABC):
 
 
 class PropertyError(Exception):
-    """Checks for invalid envelope property value"""
+    """Check for invalid envelope property value"""
 
     pass
 
