@@ -2,19 +2,13 @@
 
 ## Matching Envelopes
 - `envelope.py` tool simply checks if envelope one matches envelope two
-```
-~ python envelope.py -h
-usage: envelope.py [-h] --envelope1 ENVELOPE1 ENVELOPE1 --envelope2 ENVELOPE2
-                   ENVELOPE2
 
-This program allows to check if envelope1 fits into envelope2.
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --envelope1 ENVELOPE1 ENVELOPE1, -en1 ENVELOPE1 ENVELOPE1
-                        Size for envelope1 (1x2)
-  --envelope2 ENVELOPE2 ENVELOPE2, -en2 ENVELOPE2 ENVELOPE2
-                        Size for envelope2 (1x2)
+## Demo
+```bash
+~/envelope python envelope.py --envelope1 2 2 --envelope2 3 3
+2018-06-11 12:18:54,312 INFO Congratulations EnvelopeOne fits into EnvelopeTwo!
+~/envelope python envelope.py --envelope1 5 5 --envelope2 4 4
+2018-06-11 12:19:08,620 INFO EnvelopeOne does not fit into EnvelopeTwo, please try again! Reason - EnvelopeOne has size 5x5 and EnvelopeTwo has size 4x4
 ```
 ## Contributing
 
