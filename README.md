@@ -1,3 +1,6 @@
+[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
+
 # Envelopes matcher
 `envelope.py` tool simply checks if envelope one matches envelope two with pure OOP style. Nothing more :)
 
